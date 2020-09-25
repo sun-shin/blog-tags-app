@@ -1,0 +1,10 @@
+models:
+- posts
+  attributes: title, text:text, image_url:str
+- tags
+  attributes: post_id: integer, tag_id: integer
+- post_tags
+  attributes: name
+
+  steps:
+  - create database
